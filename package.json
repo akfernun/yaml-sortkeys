@@ -1,16 +1,20 @@
 {
   "name": "yaml-sortkey",
   "main": "./lib/yaml-sortkey",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sort YAML keys and validate YAML",
   "keywords": [
-    "yaml", "sort", "validate", "autosort"
+    "yaml",
+    "sort",
+    "validate",
+    "autosort"
   ],
   "activationCommands": {
-    "atom-workspace": "mobi-locales:sort_keys",
     "atom-workspace": "mobi-locales:validate_buffer"
   },
-  "activationHooks": ["language-yaml:grammar-used"],
+  "activationHooks": [
+    "language-yaml:grammar-used"
+  ],
   "repository": "https://github.com/akfernun/yaml-sortkeys",
   "license": "MIT",
   "engines": {
