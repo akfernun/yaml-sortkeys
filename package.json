@@ -10,7 +10,7 @@
     "autosort"
   ],
   "activationCommands": {
-    "atom-workspace": "mobi-locales:validate_buffer"
+    "atom-workspace": "yaml-sortkey:validate"
   },
   "activationHooks": [
     "language-yaml:grammar-used"
