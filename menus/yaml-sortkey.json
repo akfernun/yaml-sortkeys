@@ -1,0 +1,25 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "YAML Sort",
+          "submenu": [
+            {
+              "label": "Sort Keys",
+              "command": "yaml-sortkey:sort_keys"
+            },
+            {
+              "label": "Validate File",
+              "command": "yaml-sortkey:validate_buffer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
