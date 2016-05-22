@@ -11,7 +11,7 @@
     "atom-workspace": "mobi-locales:validate_buffer"
   },
   "activationHooks": ["language-yaml:grammar-used"],
-  "repository": "https://github.com/atom/yaml-sortkey",
+  "repository": "https://github.com/akfernun/yaml-sortkeys",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
